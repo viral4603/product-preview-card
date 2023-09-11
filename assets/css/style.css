@@ -16,22 +16,18 @@
     --white: hsl(0, 0%, 100%);
 }
 
-html,
-body {
-    height: 100%;
-    width: 100%;
-}
+
 
 body {
     /* font-family: font-family: 'Fraunces', serif; */
     font-family: 'Montserrat', sans-serif;
     line-height: 1.1;
+    height: 100vh;
 }
 
 .card-wrapper {
     background-color: var(--secondary);
     height: 100%;
-    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
